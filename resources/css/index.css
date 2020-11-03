@@ -1,0 +1,87 @@
+
+main {
+    background-color: rgb(238, 236, 236);
+    font-family: 'Frank Ruhl Libre', 'Merriweather';
+    font-size: 17px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    padding-top: 10px;
+}
+
+#title {
+    font-weight: 700;
+}
+
+
+#img-div {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#image {
+   padding-top: 15px;
+   max-width: 90%;
+   margin: 0 auto;
+   height: auto;
+   display: block;
+}
+
+#img-caption {
+    padding: 0 30px 15px 30px;
+}
+
+#tribute-info {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#tribute-info h3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#tribute-info ul {
+    text-align: start;
+}
+
+#tribute-info ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#quotation {
+    font-family: 'Crimson Text'; 
+    font-style: italic;
+    font-size: x-large;
+    font-weight: normal;
+}
+
+#tribute-info > ul > li {
+    padding-bottom: 20px;
+}
+
+#tribute-footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 700px) {
+    #image {
+        width: 90%;
+    }
+
+    #tribute-info {
+        width: 85%;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+    #tribute-info {
+        width: 75%;
+    }
+}
